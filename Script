@@ -1,0 +1,40 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+wait(2)
+local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Scripts used";
+    Text = "Faded, Agent";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Creds";
+    Text = "Amaliamario, making this a duo script, and whoever made Faded and Agent";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "dont sue me";
+    Text = "pls :( i dont wanna get coprigh";
+    Duration = "1";
+    Callback = NotificationBindable;
+})
